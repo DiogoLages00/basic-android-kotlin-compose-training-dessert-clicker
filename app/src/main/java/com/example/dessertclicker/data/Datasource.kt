@@ -23,6 +23,7 @@ import com.example.dessertclicker.model.Dessert
  * [Datasource] generates a list of [Dessert]
  */
 object Datasource {
+
     val dessertList = listOf(
         Dessert(R.drawable.cupcake, 5, 0),
         Dessert(R.drawable.donut, 10, 5),
@@ -38,4 +39,5 @@ object Datasource {
         Dessert(R.drawable.nougat, 5000, 16000),
         Dessert(R.drawable.oreo, 6000, 20000)
     )
+
 }
